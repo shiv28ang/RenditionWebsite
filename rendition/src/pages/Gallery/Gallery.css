@@ -1,0 +1,33 @@
+.gallery{
+    scroll-behavior: smooth;
+}
+.g-subheading{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size:4rem;
+    color: rgb(36, 70, 241);
+    font-weight: bolder;
+}
+.g-nav{
+    margin-bottom: 10rem;
+}
+
+.lg-react-element {
+    column-count: 3;
+    column-gap: 10px;
+}
+
+.gallery-img {
+    max-width: 100%;
+    display: block;
+    padding: 5px 0px;
+    border-radius: 20px;
+    transition: transform 0.2s;
+}
+.g-content{
+    margin-right:2rem;
+}
+.gallery-img:hover {
+    filter: opacity(.9);
+    transform: scale(1.01);
+}

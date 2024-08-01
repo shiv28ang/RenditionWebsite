@@ -1,0 +1,49 @@
+.header{
+    display:flex;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    /* justify-content: space-between; */
+    width: 100vw;
+    height: 100px;
+
+}
+.header a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+.header a.active {
+    font-weight: bold;
+}
+.logo{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+}
+.header-menu{
+    list-style: none;
+    display: flex;
+    gap:3rem;
+    color: white;
+    margin-left: 25rem;
+
+}
+.header-menu>li{
+    width: 5rem;
+    height: 2rem;
+}
+.header-menu li:hover{
+    cursor:pointer;
+    color: var(--orange);
+    font-weight: bold;
+    padding: auto;
+}
+.active{
+    color: rgb(180, 102, 14)!important;
+    text-decoration: none;
+}
+.active:hover{
+    cursor:pointer;
+    color:var(--orange);
+    padding: auto;
+}

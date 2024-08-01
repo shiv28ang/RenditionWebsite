@@ -1,0 +1,92 @@
+
+.viva-events{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.events-heading{
+    font-size: 7rem;
+    margin-top:15rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    margin-top: -60px;
+    position: relative;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 50px;
+}
+.container .card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 400px;
+    background:#d1d15b;
+    border-radius: 20px;
+    box-shadow: 0.35px 80px rgb(97, 203, 208,0.15);
+    transition: 0.5s;
+}
+
+.container .card:hover{
+    height: 500px;
+}
+
+.viva-image{
+    position: absolute;
+    top: 10px;
+    width: 320px;
+    height: 300px;
+    background: black;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.container .card:hover .viva-image{
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.2) ;
+}
+
+.container .card .viva-image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.container .card .content{
+    position: absolute;
+    top: 258px;
+    width: 100%;
+    /* padding: 0 30px; */
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+}
+.container .card:hover .content{
+    height: 350px;
+    top: 150px;
+}
+.container .card  .content h3{
+    font-size: 1.5rem;
+    color: #1b1b97;
+    font-weight: 700;
+}
+
+.container .card  .content p{
+    color: #a92912;
+    font-weight: 500;
+    visibility: hidden;
+} 
+.container .card:hover  .content p{
+    visibility: visible;
+}
+

@@ -1,0 +1,55 @@
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+.aboutus-header{
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: white;
+    text-transform:uppercase ;
+    font-style: italic;
+}
+.aboutus-header>span:nth-child(2)
+{
+    margin-top: -9px;
+    
+}
+.what-we-do{
+    display: flex;
+    gap: 1rem;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(48, 113, 31);
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    justify-content: space-between;
+}
+.category>:nth-child(1)
+{
+    width: 2rem;
+    height: 2rem;
+    fill: white;
+}
+.category>:nth-child(2)
+{
+    font-size: 1rem;
+    font-weight: bold;
+}   
+.category>:nth-child(3)
+{
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+.category:hover{
+    background: rgb(13, 84, 122);
+    cursor: pointer;
+}
